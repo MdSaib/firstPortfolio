@@ -1,3 +1,27 @@
-body {
+.headline {
     background-color: burlywood;
+    height: 718px;
+    width: 375px;
+    left: 0px;
+    top: 0px;
+    }
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+#menuBar {
+    position: absolute;
+    left: 16.67%;
+    right: 16.67%;
+    top: 50%;
+    bottom: 50%;
+    border: 2px solid #ACB7C3;
+
+}
+
+.social-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
