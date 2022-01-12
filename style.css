@@ -3,8 +3,8 @@
   position: absolute;
   width: 375px;
   height: 718px;
-  left: 0px;
-  top: 0px;
+  left: 1px;
+  top: 1px;
   background: burlywood;
 }
 
@@ -12,8 +12,8 @@
   position: absolute;
   width: 375px;
   height: 92px;
-  left: 0px;
-  top: 0px;
+  left: 1px;
+  top: 1px;
 }
 
 .logoPlace {
@@ -21,49 +21,44 @@
   flex-direction: row;
   align-items: center;
   padding: 10px 12px;
-
   position: absolute;
   width: 100px;
   height: 40px;
   left: 12px;
-  top: calc(50% - 40px/2);
+  top: calc(50% - 40px / 2);
 }
+
 #logo {
   position: static;
   width: 76px;
   height: 20px;
   left: 12px;
   top: 10px;
-
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 20px;
-
   display: flex;
   align-items: center;
   text-align: center;
-
   color: #6070FF;
-
   flex: none;
   order: 0;
   flex-grow: 0;
   margin: 0px 0px;   
 }
+
 .menuPlace {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 8px;
-
   position: absolute;
   width: 40px;
   height: 40px;
   right: 24px;
   top: calc(50% - 40px/2);
-
   border-radius: 8px;
 }
 
@@ -73,7 +68,6 @@
   right: 20%;
   top: 20%;
   bottom: 20%;
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -85,7 +79,6 @@
   flex-direction: column;
   align-items: flex-start;
   padding: 114px 24px;
-
   position: absolute;
   width: 375px;
   height: 604px;
@@ -102,52 +95,39 @@
 
   /* Header / 2 */
 
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
   /* or 130% */
-
   display: flex;
   align-items: center;
-
   /* Neutrals/N800 */
-
   color: #172B4D;
-
-
   /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
   margin: 12px 0px;
 }
+
 #text2 {
   position: static;
   width: 327px;
   height: 146px;
   left: 24px;
   top: 276px;
-
   /* Body / 2 */
-
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
   /* or 150% */
-
-
   /* Neutrals/N600 */
-
   color: #344563;
-
-
   /* Inside auto layout */
-
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -155,46 +135,39 @@
 }
 
 .text3Place {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   padding: 0px;
-
   position: static;
-  width: 117px;
+  width: 217px;
   height: 24px;
   left: 24px;
   top: 434px;
   /* Inside auto layout */
-
   flex: none;
   order: 2;
   flex-grow: 0;
   margin: 12px 0px;
 }
-#text3 {
+
+.text3 {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: flex-start;
   position: static;
   width: 117px;
   height: 24px;
   left: 0px;
   top: 0px;
-
   /* Body / 2 - Bolder */
-
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   /* identical to box height, or 150% */
-
   /* Primary/B300 */
-
   color: #7F8CFF;
-
-
   /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -203,14 +176,9 @@
 
 .social-icon {
   position: static;
-  width: 170.17px;
+  width: 270.17px;
   height: 20px;
-  left: 24px;
-  top: 470px;
-
-
   /* Inside auto layout */
-
   flex: none;
   order: 3;
   flex-grow: 0;
@@ -219,49 +187,24 @@
 
 .twitter {
   position: absolute;
-  left: 6.4%;
-  right: 88.27%;
-  top: 77.81%;
-  bottom: 18.88%;
-
+  margin: 10px;
   /* Neutrals/N400 */
-
-  background: #505f79;
 }
 
 .medium {
   position: absolute;
-  left: 27.47%;
-  right: 67.2%;
-  top: 78.15%;
-  bottom: 19.21%;
-
+  margin: 10px;
   /* Neutrals/N400 */
-
-  background: #505f79;
 }
 
 .github {
   position: absolute;
-  left: 38.13%;
-  right: 57.07%;
-  top: 77.81%;
-  bottom: 18.87%;
-
+  margin: 10px;
   /* Neutrals/N400 */
-
-  background: #505f79;
-
 }
 
 .finger {
   position: absolute;
-  left: 48%;
-  right: 48.22%;
-  top: 77.81%;
-  bottom: 18.87%;
-
-  /* Neutrals/N400 */
-
-  background: #505f79;
+  margin: 10px;
+  /* Neutrals/N400 */  
 };
