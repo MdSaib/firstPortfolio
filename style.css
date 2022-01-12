@@ -6,7 +6,7 @@
   left: 0px;
   top: 0px;
   background: burlywood;
-  }
+}
 
 .appbar {
   position: absolute;
@@ -14,59 +14,59 @@
   height: 92px;
   left: 0px;
   top: 0px;
-  }
+}
 
 .logoPlace {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 10px 12px;
-    
+
   position: absolute;
   width: 100px;
   height: 40px;
   left: 12px;
   top: calc(50% - 40px/2);
-  }
+}
 #logo {
   position: static;
   width: 76px;
   height: 20px;
   left: 12px;
   top: 10px;
-   
+
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 20px;
-    
+
   display: flex;
   align-items: center;
   text-align: center;
-      
+
   color: #6070FF;
-      
+
   flex: none;
   order: 0;
   flex-grow: 0;
   margin: 0px 0px;   
-  }
+}
 .menuPlace {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 8px;
-  
+
   position: absolute;
   width: 40px;
   height: 40px;
   right: 24px;
   top: calc(50% - 40px/2);
-    
+
   border-radius: 8px;
-  }
-  
+}
+
 #menuBar {
   position: static;
   left: 20%;
@@ -78,20 +78,20 @@
   order: 0;
   flex-grow: 0;
   margin: 0px 0px;
-  }
+}
 
 .headline {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 114px 24px;
-   
+
   position: absolute;
   width: 375px;
   height: 604px;
   left: calc(50% - 375px/2);
   top: 92px;
-  }
+}
 
 .text1 {
   position: static;
@@ -123,7 +123,7 @@
   order: 0;
   flex-grow: 0;
   margin: 12px 0px;
-  }
+}
 #text2 {
   position: static;
   width: 327px;
@@ -152,26 +152,26 @@
   order: 1;
   flex-grow: 0;
   margin: 12px 0px;
-  }
+}
 
 .text3Place {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-    
+
   position: static;
   width: 117px;
   height: 24px;
   left: 24px;
   top: 434px;
   /* Inside auto layout */
-    
+
   flex: none;
   order: 2;
   flex-grow: 0;
   margin: 12px 0px;
-  }
+}
 #text3 {
   position: static;
   width: 117px;
@@ -188,7 +188,6 @@
   line-height: 24px;
   /* identical to box height, or 150% */
 
-
   /* Primary/B300 */
 
   color: #7F8CFF;
@@ -200,7 +199,7 @@
   order: 0;
   flex-grow: 0;
   margin: 0px 8px;
-  }
+}
 
 .social-icon {
   position: static;
@@ -216,7 +215,7 @@
   order: 3;
   flex-grow: 0;
   margin: 12px 0px;
-  }
+}
 
 .twitter {
   position: absolute;
@@ -227,9 +226,8 @@
 
   /* Neutrals/N400 */
 
-  background: #505F79;
-  }
-
+  background: #505f79;
+}
 
 .medium {
   position: absolute;
@@ -240,8 +238,8 @@
 
   /* Neutrals/N400 */
 
-  background: #505F79;
-  }
+  background: #505f79;
+}
 
 .github {
   position: absolute;
@@ -252,11 +250,11 @@
 
   /* Neutrals/N400 */
 
-  background: #505F79;
+  background: #505f79;
 
-  }
-  
-  .finger {
+}
+
+.finger {
   position: absolute;
   left: 48%;
   right: 48.22%;
@@ -265,5 +263,5 @@
 
   /* Neutrals/N400 */
 
-  background: #505F79;
-  }
+  background: #505f79;
+};
