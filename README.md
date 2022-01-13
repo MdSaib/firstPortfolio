@@ -1,6 +1,6 @@
 # Hello Microverse
 
- Hello Microverse. This is our very first project at microverse. In this project we need to show that, we can use git and github smoothly. We would program a html page, which text color need to be changed using css.
+ Good morning. This is our very first project about portfolio design. In this project we need to learn  how to parse a Figma design to create a UI. In the end, we would program our own portfolio using html & css following the figma design provided by microverse. 
 
 
 
@@ -17,6 +17,7 @@ We would publish it as github pages, after it would being approved from project 
 ### Prerequisites
 - basic knowledge of html, css
 - working knowledge of git and github
+- basic understanding of figma.
 
 
 
@@ -50,6 +51,7 @@ Give a ⭐️ if you like this project!
 - htmlCheatSheet: [https://htmlcheatsheet.com/]
 - cssCheatSheet: [https://websitesetup.org/css3-cheat-sheet/]
 - fontawesome: [https://fontawesome.com/]
+- figma: [https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=39%3A122]
 
 ## 📝 License
 
