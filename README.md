@@ -1,17 +1,12 @@
-# Hello Microverse
+# Portfolio
 
- Good morning. This is our very first project about portfolio design. In this project we need to learn  how to parse a Figma design to create a UI. In the end, we would program our own portfolio using html & css following the figma design provided by microverse. 
+ This is our very first project about portfolio design. In this project we need to learn  how to parse a Figma design to create a UI. In the end, we would program our own portfolio using html & css following the figma design provided by microverse. 
 
 
 
 ## Built With
 
 - html, css
-
-## Live Demo
-
-We would publish it as github pages, after it would being approved from project reviewer.
-
 
 
 ### Prerequisites
