@@ -1,39 +1,17 @@
-.homepage {
-  position: absolute;
-  width: 375px;
-  height: 718px;
-  left: 1px;
-  top: 1px;
-  background: burlywood;
-}
-
-.appbar {
-  position: absolute;
-  width: 375px;
-  height: 92px;
-  left: 1px;
-  top: 1px;
-}
-
-.logoPlace {
+header {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 10px 12px;
-  position: absolute;
-  width: 100px;
-  height: 40px;
-  left: 12px;
-  top: calc(50% - 40px / 2);
+  justify-content: space-between;
+  margin-top: 40px;
+  width: 375px;
 }
 
-#logo {
+.msLogo {
   position: static;
   width: 76px;
   height: 20px;
   left: 12px;
   top: 10px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -42,47 +20,37 @@
   align-items: center;
   text-align: center;
   color: #6070ff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 1px 1px;
+  padding-left: 20px;
+  text-decoration: none;
 }
 
-.menuPlace {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 8px;
+nav {
+  margin-right: 30px;
+}
+
+.homebody {
   position: absolute;
-  width: 40px;
-  height: 40px;
-  right: 24px;
-  top: calc(50% - 40px / 2);
-  border-radius: 8px;
-}
-
-#menuBar {
-  position: static;
-  left: 20%;
-  right: 20%;
-  top: 20%;
-  bottom: 20%;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 1px 1px;
+  width: 375px;
+  height: 600px;
+  left: 1px;
+  top: 100px;
+  background: #ffffff;
+  background-image: url(icon/headerShapes.svg);
+  background-repeat: no-repeat;
+  
 }
 
 .headline {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 114px 24px;
+  padding: 1px 24px;
   position: absolute;
-  width: 375px;
-  height: 604px;
+  width: 320px;
+  height: 64px;
   left: calc(50% - 375px / 2);
   top: 92px;
+  
 }
 
 .text1 {
@@ -113,77 +81,39 @@
   top: 276px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #344563;
   flex: none;
-  order: 1;
-  flex-grow: 0;
-  margin: 12px 1px;
-}
-
-.text3Place {
-  padding: 1px;
-  position: static;
-  width: 217px;
-  height: 24px;
-  left: 24px;
-  top: 434px;
-  flex: none;
-  order: 2;
+  order: 0;
   flex-grow: 0;
   margin: 12px 1px;
 }
 
 .text3 {
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  justify-content: flex-start;
-  position: static;
-  width: 117px;
-  height: 24px;
+  position: relative;
+  width: 217px;
+  height: 4px;
   left: 1px;
   top: 1px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 2px;
   color: #7f8cff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 1px 8px;
 }
 
 .social-icon {
-  position: static;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 12px;
   width: 270.17px;
   height: 20px;
-  flex: none;
   order: 3;
-  flex-grow: 0;
-  margin: 12px 1px;
-}
-
-.twitter {
-  position: absolute;
-  margin: 10px;
-}
-
-.medium {
-  position: absolute;
-  margin: 10px;
-}
-
-.github {
-  position: absolute;
-  margin: 10px;
-}
-
-.finger {
-  position: absolute;
-  margin: 10px;
+  margin: 32px 1px;
+  list-style: none;
+  padding-left: 1px;
 }
